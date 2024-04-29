@@ -10,12 +10,6 @@ function Signup () {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-		// Make a post request to http://localhost:8080/api/users/register"
-		// POST requires email, password, first_name, last_name, phone, address
-		// setSuccess to true upon successful response
-		// setError to empty string 
-		// reset form with event.target.reset()
-		// if theres an error setError setSuccess to false
 		try {
 			const response = await axios.post('http://localhost:8080/api/users/register', {
 				email: event.target.email.value,
