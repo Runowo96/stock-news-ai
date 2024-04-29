@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./Login.scss"
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import Input from './Input/Input';
+import Input from '../Input/Input';
 
 function Login() {
     const [error, setError] = useState("");
