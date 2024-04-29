@@ -40,7 +40,6 @@ function Signup () {
                 <Input type="text" name="first_name" label="First name" />
                 <Input type="text" name="last_name" label="Last name" />
                 <Input type="text" name="phone" label="Phone" />
-                <Input type="text" name="address" label="Address" />
                 <Input type="text" name="email" label="Email" />
                 <Input type="password" name="password" label="Password" />
 
