@@ -17,7 +17,6 @@ function Signup () {
 				first_name: event.target.first_name.value,
 				last_name: event.target.last_name.value,
 				phone: event.target.phone.value,
-				address: event.target.address.value,
 			})
 			if(response) {
 				setSuccess(true)
